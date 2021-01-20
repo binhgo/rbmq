@@ -1,0 +1,10 @@
+package main
+
+var EXCHANGE_NAME = "ONLINE_ORDER"
+var EXCHANGE_KIND_DIRECT = "direct"
+var EXCHANGE_DURABLE = true
+var CONSUMER_COUNT = 1000
+var RBMQ_CONN_STRING = "amqp://admin:pass@34.87.137.179:5672/"
+
+// TEST CONFIG
+var TEST_MAX_ORDER = 10000000
