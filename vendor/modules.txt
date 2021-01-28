@@ -11,6 +11,15 @@ github.com/go-redis/redis/v8/internal/pool
 github.com/go-redis/redis/v8/internal/proto
 github.com/go-redis/redis/v8/internal/rand
 github.com/go-redis/redis/v8/internal/util
+# github.com/go-redsync/redsync/v4 v4.0.4
+## explicit
+github.com/go-redsync/redsync/v4
+github.com/go-redsync/redsync/v4/redis
+github.com/go-redsync/redsync/v4/redis/goredis/v8
+# github.com/hashicorp/errwrap v1.0.0
+github.com/hashicorp/errwrap
+# github.com/hashicorp/go-multierror v1.1.0
+github.com/hashicorp/go-multierror
 # github.com/serialx/hashring v0.0.0-20200727003509-22c0c7ab6b1b
 ## explicit
 github.com/serialx/hashring
