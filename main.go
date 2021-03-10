@@ -1,29 +1,24 @@
 package main
 
-import (
-	"fmt"
-	"time"
-)
-
-func main() {
-
-	// Test()
-	// os.Exit(0)
-
-	fmt.Println("start consumer")
-	startConsumer(CONSUMER_COUNT)
-
-	fmt.Println("wait 10s")
-	time.Sleep(10 * time.Second)
-
-	fmt.Println("start sender")
-	time.Sleep(1 * time.Second)
-	go startSender()
-
-	fmt.Println("wait 4ever")
-	f4v := make(chan bool)
-	<-f4v
-}
+//func main() {
+//
+//	// Test()
+//	// os.Exit(0)
+//
+//	fmt.Println("start consumer")
+//	startConsumer(CONSUMER_COUNT)
+//
+//	fmt.Println("wait 10s")
+//	time.Sleep(10 * time.Second)
+//
+//	fmt.Println("start sender")
+//	time.Sleep(1 * time.Second)
+//	go startSender()
+//
+//	fmt.Println("wait 4ever")
+//	f4v := make(chan bool)
+//	<-f4v
+//}
 
 func Test() {
 

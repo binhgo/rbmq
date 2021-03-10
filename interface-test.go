@@ -33,28 +33,28 @@ func (mt *MyType) Read(b []byte) (n int, err error) {
 	return l, nil
 }
 
-func main() {
-	// var buf bytes.Buffer
-	//fmt.Fprintf(&buf, "Size: %d MB.", 85)
-	//s := buf.String() // s == "Size: 85 MB."
-	//fmt.Fprintf()
-
-	var myType MyType
-	fmt.Fprintf(&myType, "Size: %d MB.S", 85)
-	fmt.Println(myType.Data)
-
-	//r := strings.NewReader("abcde")
-	//buf := make([]byte, 4)
-	//for {
-	//	n, err := r.Read(buf)
-	//	fmt.Println(n, err, buf[:n])
-	//	if err == io.EOF {
-	//		break
-	//	}
-	//}
-
-	fmt.Println("READDDD")
-	buf := make([]byte, 4)
-	n, err := myType.Read(buf)
-	fmt.Println(n, err, buf[:n])
-}
+//func main() {
+//	// var buf bytes.Buffer
+//	//fmt.Fprintf(&buf, "Size: %d MB.", 85)
+//	//s := buf.String() // s == "Size: 85 MB."
+//	//fmt.Fprintf()
+//
+//	var myType MyType
+//	fmt.Fprintf(&myType, "Size: %d MB.S", 85)
+//	fmt.Println(myType.Data)
+//
+//	//r := strings.NewReader("abcde")
+//	//buf := make([]byte, 4)
+//	//for {
+//	//	n, err := r.Read(buf)
+//	//	fmt.Println(n, err, buf[:n])
+//	//	if err == io.EOF {
+//	//		break
+//	//	}
+//	//}
+//
+//	fmt.Println("READDDD")
+//	buf := make([]byte, 4)
+//	n, err := myType.Read(buf)
+//	fmt.Println(n, err, buf[:n])
+//}

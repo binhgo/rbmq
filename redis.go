@@ -9,9 +9,9 @@ import (
 	"time"
 )
 
-func main() {
-	RunExample()
-}
+//func main() {
+//	RunExample()
+//}
 
 var redisClient *redis.Client
 var ctx = context.Background()
